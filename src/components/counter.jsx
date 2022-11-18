@@ -4,12 +4,12 @@ class Counter extends Component {
     state = {
         value: this.props.value,
         tags: []
-    };
+    }
 
     styles = {
         fontSize: 10,
         fontWeight: "bold"
-    };
+    }
 
     getBadgeClasses() {
         let classes = "badge m-2 bg-";
@@ -29,10 +29,12 @@ class Counter extends Component {
     render() { 
         return ( 
             <div>
+                {this.props.children}
                 <span style ={this.styles} className={this.getBadgeClasses()}>{this.formatCount()}</span>
                 <button onClick={ () => this.handleIncrement()} className="btn btn btn-secondary">Increment</button>
+                <button onClick={ this.props.onDelete } className="btn btn-danger btn-sm m-2">Delete</button>
             </div>
-        );
+        )
     }  
 }
  
