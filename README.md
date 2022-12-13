@@ -1,10 +1,10 @@
+This App was a tutorial app built by [Programing With Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0). It uses legacy React Class Components. It consists resuable child **< Counter />** and parent **< Counters />** components, and there are four counters in the app that could perform increment and rest number to zero.
+
 # React Frontend Counter App
-This App was a tutorial app taught by [Programing With Mosh](https://www.youtube.com/watch?v=Ke90Tje7VS0). It uses legacy React Class Components. It consists resuable child **< Counter />** component and parent **< Counter />** component to build four counters that could increment number and reset number to zero. 
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Installation
-1. Download the repository and make sure node is installed on your computer.
-2. Run the `npm install`install the packages.
+- `npm install` at the root directory.
 
 ### Usage 
 - `npm start` at the root directory of the project to start the app in the development mode.
