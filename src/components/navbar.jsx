@@ -2,7 +2,7 @@
 
 const NavBar = ({totalCounters}) => {
     return (
-        <nav className="navbar navbar-light bg-light">
+        <nav className="navbar navbar-light bg-light d-inline-block">
             <a className="navbar-brand" href="#">
                 Total Number of Counters: {" "}
                 <span className="badge bg-pill bg-secondary">{totalCounters}</span>
